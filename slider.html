@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- If IE use the latest rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Set the page to the width of the device and set the zoon level -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Bootstrap Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <style>
+        .jumbotron {
+            background-color: #2E2D88;
+            color: white;
+        }
+        /* Adds borders for tabs */
+        .tab-content {
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .nav-tabs {
+            margin-bottom: 0;
+        }
+
+        /* Carousel Styling */
+        .slide1 {
+            background-image: url('bkgrnd1.png');
+            height: 500px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .slide2 {
+            background-image: url('bkgrnd2.png');
+            height: 500px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .slide3 {
+            background-image: url('bkgrnd3.png');
+            height: 500px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .carousel-caption h1 {
+            font-size: 5.4em;
+            font-family: 'Pacifico', cursive;
+            padding-bottom: .4em;
+        }
+
+        .carousel-caption p {
+            font-size: 2em;
+        }
+
+    </style>
+
+</head>
+<body>
+
+	
+	<!-- How to create a slider -->
+    
+    <div id="theCarousel" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#theCarousel" data-slide-to="0" class="active">    </li>
+      <li data-target="#theCarousel" data-slide-to="1" >    </li>
+      <li data-target="#theCarousel" data-slide-to="2" >    </li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="slide1"></div>
+        <div class="carousel-caption">
+          <h1> Amazing background</h1>
+          <p> Thousand of background for free</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="slide2"></div>
+        <div class="carousel-caption">
+          <h1> Amazing background</h1>
+          <p> Thousand of background for  this is slide 2</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="slide3"></div>
+        <div class="carousel-caption">
+          <h1> Amazing background</h1>
+          <p> Thousand of background for free
+          this is slide 3</p>
+        </div>
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left">
+
+        <a class="right carousel-control" href="#theCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right">
+
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+    
+
+</body>
+</html>
