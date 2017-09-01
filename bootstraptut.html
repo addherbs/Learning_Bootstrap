@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- If IE use the latest rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	
+	
+	<!--Changes -->
+
+    <!-- Set the page to the width of the device and set the zoon level -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Bootstrap Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <style>
+        .jumbotron {
+            background-color: #2E2D88;
+            color: white;
+        }
+        /* Adds borders for tabs */
+        .tab-content {
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .nav-tabs {
+            margin-bottom: 0;
+        }
+
+        /* Carousel Styling */
+        .slide1 {
+            background-image: url('bkgrnd1.png');
+            height: 500px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .slide2 {
+            background-image: url('bkgrnd2.png');
+            height: 500px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .slide3 {
+            background-image: url('bkgrnd3.png');
+            height: 500px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .carousel-caption h1 {
+            font-size: 5.4em;
+            font-family: 'Pacifico', cursive;
+            padding-bottom: .4em;
+        }
+
+        .carousel-caption p {
+            font-size: 2em;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- How to use buttons and headers    -->
+    <!--
+    <div class="container">
+    <div class="page-header">
+      <h1> My tutorials </h1>
+    </div>
+
+    <div class="jumbotron">
+      <p> Hello this is the paragraph</p>
+
+
+      <p>
+      <a href="#" class="btn btn-default btn-lg" role="button"> More Info </a>
+      </p>
+
+      <div class="btn-group btn-group-sm" role="group">
+        <button type="button" class="btn btn-default"> Small </button>
+        <button type="button" class="btn btn-default"> Med </button>
+        <button type="button" class="btn btn-default"> Large </button>
+      </div>
+
+    </div>
+
+    </div>
+    -->
+    <!-- How to use grid systems((12 space)) and make responsive websites    -->
+    <!--
+    <div class="container">
+    <div class="row">
+
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <h4> <a href="#col1content" data-toggle="collapse"> Column 1 </a> </h4>
+
+          <div id="col1content" class="collapse in">
+            Recently, I saw a comment on Facebook about professors who are teaching college students to make all their paragraphs the same length. The woman wrote, "There are professors at my school who deduct points, sometimes even letter grades, if paragraphs aren't the same exact length throughout a paper. Because writing should be 'balanced' and it can only achieve 'balance' if all paragraphs are equal in length."
+          </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+      <h4> <a href="#col2content" data-toggle="collapse"> Column 2 </a> </h4>
+        <div id="col2content" class="collapse">
+          Recently, I saw a comment on Facebook about professors who are teaching college students to make all their paragraphs the same length. The woman wrote, "There are professors at my school who deduct points, sometimes even letter grades, if paragraphs aren't the same exact length throughout a paper. Because writing should be 'balanced' and it can only achieve 'balance' if all paragraphs are equal in length."
+        </div>
+      </div>
+
+
+      <div class="clearfix visible-sm"> </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <h4> <a href="#col3content" data-toggle="collapse"> Column 3 </a> </h4>
+          <div id="col3content" class="collapse">
+            Recently, I saw a comment on Facebook about professors who are teaching college students to make all their paragraphs the same length. The woman wrote, "There are professors at my school who deduct points, sometimes even letter grades, if paragraphs aren't the same exact length throughout a paper. Because writing should be 'balanced' and it can only achieve 'balance' if all paragraphs are equal in length."
+          </div>
+        </div>
+
+    </div>
+    </div>
+    -->
+    <!-- How to create a slider -->
+    <!--
+    <div id="theCarousel" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#theCarousel" data-slide-to="0" class="active">    </li>
+      <li data-target="#theCarousel" data-slide-to="1" >    </li>
+      <li data-target="#theCarousel" data-slide-to="2" >    </li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="slide1"></div>
+        <div class="carousel-caption">
+          <h1> Amazing background</h1>
+          <p> Thousand of background for free</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="slide2"></div>
+        <div class="carousel-caption">
+          <h1> Amazing background</h1>
+          <p> Thousand of background for  this is slide 2</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="slide3"></div>
+        <div class="carousel-caption">
+          <h1> Amazing background</h1>
+          <p> Thousand of background for free
+          this is slide 3</p>
+        </div>
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left">
+
+        <a class="right carousel-control" href="#theCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right">
+
+    </div>
+    -->
+    <!-- How to create a dropdown menu -->
+    <!--
+    <div class="container">
+        <div class="dropdown">
+
+            <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true"> Favorite Hero
+
+            <span class="caret"> </span>
+            </button>
+
+            <ul class="dropdown-menu">
+                <li class="dropdown-header"> Marvel </li>
+                <li> <a href="#"> Spiderman</a></li>
+                <li> <a href="#"> Iron Man</a></li>
+
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header"> DC </li>
+                <li class="disabled"> <a href="#" > Superman</a>
+                <li><a href="#"> Batman</a></li>
+            </ul>
+        </div>
+
+    </div>
+        -->
+    <!-- How to use input groups    -->
+    <!--
+    <div class="container">
+        <div class="input-group input-group-lg">
+            <span class="input-group-addon">Your Name</span>
+            <input type="text" class="form-control" placeholder="Full Name">
+        </div>        <br>
+
+        <div class="input-group input-group-md">
+            <input type="text" class="form-control" placeholder="Full Name">
+            <span class="input-group-btn">
+                <button class="btn btn-default"> Enter</button>
+                </span>
+
+        </div>        <br>
+    </div>
+
+    -->
+    <!-- How to create a horizontal list-->
+    <!--
+        <div class="container">
+
+            <ul class="list-inline">
+                <li> <a href="#">Home</a>   </li>
+                <li> <a href="#">About</a>  </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Contact Us
+                    <span class="caret"></span>
+                    <ul class="dropdown-menu">
+                        <li> <a href="#"> Email </a>    </li>
+                        <li> <a href="#"> Phone </a>    </li>
+                        <li> <a href="#"> Address </a>  </li>
+
+                    </ul>
+                    </a>
+                    </li>
+    </ul>
+
+        </div>
+
+        -->
+    <!-- How to create a vertical list-->
+    <!--
+    <div class="container">
+
+        <ul class="nav nav-pills nav-stacked ">
+            <li class="active"> <a href="#">Home</a>   </li>
+            <li class="active"> <a href="#">About</a>  </li>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Contact Us
+                    <span class="caret"></span>
+                    <ul class="dropdown-menu">
+                        <li> <a href="#"> Email </a>    </li>
+                        <li> <a href="#"> Phone </a>    </li>
+                        <li> <a href="#"> Address </a>  </li>
+
+                    </ul>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+        -->
+    <!-- Pagination  -->
+    <!--
+    <div class="container">
+        
+        <nav>
+            <ul class="pagination">
+                <li>
+                    <a href="#" aria-label="Previous">
+                        <span aria-hidden="true"> &laquo;      </span>
+                    </a>
+                </li>
+                <li> <a href="#">1</a>
+                <li> <a href="#">2</a>
+                <li> <a href="#">3</a>
+
+                <li>
+                    <a href="#" aria-label="Next">
+                        <span aria-hidden="true"> &raquo;      </span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </div>
+    -->
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  -->
+    <script src="js/bootstrap.min.js"> </script>
+
+</body>
+</html>
